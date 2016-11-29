@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainForm</class>
+ <widget class="QMainWindow" name="MainForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>163</width>
+    <height>36</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Step Game Fucker</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow
+{
+background:white;
+}
+
+QTabWidget::pane
+{
+background:white;
+border:1px solid gray;
+}
+
+QTabWidget#tabwMain::pane
+{
+background:white;
+border:none;
+border-top:1px solid gray;
+border-bottom:1px solid gray;
+}
+
+QGroupBox
+{
+border:1px solid gray;
+margin-top:5px;
+}
+
+QGroupBox::title
+{
+color:blue;
+top:-7px;
+left:5px;
+}
+
+QCheckBox:checked
+{
+color:green;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QCheckBox" name="checkBoxOneClickBoardGameDisconnect">
+      <property name="text">
+       <string>Active</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="FatalDisconnection.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>checkBoxOneClickBoardGameDisconnect</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainForm</receiver>
+   <slot>CheckBoxToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>45</x>
+     <y>19</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-8</x>
+     <y>114</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>CheckBoxToggled(bool)</slot>
+ </slots>
+</ui>

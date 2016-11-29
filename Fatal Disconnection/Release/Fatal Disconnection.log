@@ -1,0 +1,24 @@
+﻿Build started 8/31/2014 4:09:54.
+     1>Project "C:\Users\User\Documents\Visual Studio 2013\Projects\Fatal Disconnection\Fatal Disconnection\Fatal Disconnection.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /IC:\boost\boost_1_55_0 /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CFunctionManager.cpp CMainForm.cpp CPackets.cpp main.cpp
+         CFunctionManager.cpp
+         CMainForm.cpp
+         CPackets.cpp
+         main.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\Visual Studio 2013\Projects\Fatal Disconnection\Win32\Release\\Fatal Disconnection.dll" /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib /LIBPATH:C:\boost\boost_1_55_0\stage\lib kernel32.lib user32.lib shell32.lib uuid.lib ole32.lib advapi32.lib ws2_32.lib gdi32.lib comdlg32.lib oleaut32.lib imm32.lib winmm.lib winspool.lib ws2_32.lib ole32.lib user32.lib advapi32.lib qtmain.lib QtCore.lib QtGui.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Fatal Disconnection.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\User\Documents\Visual Studio 2013\Projects\Fatal Disconnection\Win32\Release\Fatal Disconnection.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\Visual Studio 2013\Projects\Fatal Disconnection\Win32\Release\Fatal Disconnection.lib" /MACHINE:X86 /DLL Release\CFunctionManager.obj
+         Release\CMainForm.obj
+         Release\CPackets.obj
+         Release\qrc_FatalDisconnection.obj
+         Release\moc_CMainForm.obj
+         Release\main.obj
+         Fatal Disconnection.vcxproj -> C:\Users\User\Documents\Visual Studio 2013\Projects\Fatal Disconnection\Win32\Release\Fatal Disconnection.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\User\Documents\Visual Studio 2013\Projects\Fatal Disconnection\Win32\Release\\Fatal Disconnection.dll;#2" /manifest "Release\Fatal Disconnection.dll.intermediate.manifest"
+     1>Done Building Project "C:\Users\User\Documents\Visual Studio 2013\Projects\Fatal Disconnection\Fatal Disconnection\Fatal Disconnection.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.28

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Form Files\Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files\Generated Files\Debug">
+      <UniqueIdentifier>{59710b48-4cdb-47a0-8a9f-57b3eea7076d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files\Generated Files\Release">
+      <UniqueIdentifier>{6c669558-76fe-4b12-97fb-a0ad23c37b65}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Form Files\CMainForm Files">
+      <UniqueIdentifier>{f7107f75-7b81-4f64-94a1-d2c55654a3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files">
+      <UniqueIdentifier>{5d135c00-da21-4d69-bd41-11a033a8e29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files\CPackets Files">
+      <UniqueIdentifier>{778c081d-83c9-421f-9754-53391d6e39ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Files\CFuntionManager Files">
+      <UniqueIdentifier>{8c144814-90c4-46eb-81bc-d91286e5a554}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CMainForm.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CMainForm.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_FatalDisconnection.cpp">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainForm.cpp">
+      <Filter>Form Files\CMainForm Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPackets.cpp">
+      <Filter>Class Files\CPackets Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFunctionManager.cpp">
+      <Filter>Class Files\CFuntionManager Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FatalDisconnection.qrc">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMainForm.h">
+      <Filter>Form Files\CMainForm Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMainForm.ui">
+      <Filter>Form Files\CMainForm Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_CMainForm.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPackets.h">
+      <Filter>Class Files\CPackets Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Addresses.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFunctionManager.h">
+      <Filter>Class Files\CFuntionManager Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
